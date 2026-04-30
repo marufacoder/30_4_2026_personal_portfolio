@@ -1,0 +1,7 @@
+  <p id="datetime" class="m-0 p-0  text-center text-success"></p>
+function UpdateDateTime(){
+    const now = new Date();
+    const updateDateTime = now.toLocaleString();
+    document.getElementById('datetime').textContent = updateDateTime;
+}UpdateDateTime();
+setInterval(UpdateDateTime,1000);

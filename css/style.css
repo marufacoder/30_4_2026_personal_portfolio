@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    margin-left: 45px;
+    padding: 5px;
+}
+.nav-item a{
+    color: white;
+    background-color: rgb(12, 146, 235);
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+.nav-item a:hover{
+color:brown;
+background-color: blanchedalmond;
+transform: translateY(-5px);
+}
+.nav-item a.active{
+    color: aquamarine;
+}
+.text-justify{
+    text-align: justify;
+}
+/* .my-item{
+    margin-left: 140px;
+   
+} */
+/* card service section */
+.service_icons {
+    font-size: 30px;
+    color: darkviolet;
+    background-color: rgb(226, 203, 243);
+    padding: 5px;
+    border-radius: 8px;
+    transition: .4s ease;
+}
+.card_hover {
+    transition: filter .4s ease;
+}
+
+.card_hover:hover {
+    filter: drop-shadow(3px 3px 8px rgb(238, 159, 238));
+}
+
+.card_hover:hover .service_icons {
+    background-color: rgb(186, 74, 235);
+    color: white;
+}
+
+.anchor {
+    color: darkviolet;
+    text-decoration: none;
+}
+
+.bi-arrow-right-short {
+    color: darkviolet;
+    transition: .4s ease;
+}
+
+.card_hover:hover .bi-arrow-right-short {
+    transform: translatex(5px);
+}
+/* card service section end*/
+/* progress start */
+.progress {
+    margin-bottom: 10px;
+    height: 35px !important;
+}
+
+.progress-bar {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: black !important;
+}
+
+.skill-1 {
+    width: 95%;
+    /* color: black; */
+}
+
+.skill-2 {
+    width: 90%;
+}
+
+.skill-3 {
+    width: 85%;
+}
+
+.skill-4 {
+    width: 90%;
+}
+
+.skill-5 {
+    width: 100%;
+}
+/* progress end */
+.card img{
+    height: 300px;
+    object-fit: cover;
+}
